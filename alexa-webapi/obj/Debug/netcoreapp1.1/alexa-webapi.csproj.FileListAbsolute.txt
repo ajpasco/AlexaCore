@@ -1,0 +1,10 @@
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-webapi.deps.json
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-webapi.runtimeconfig.json
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-webapi.runtimeconfig.dev.json
+/Users/allan/dev/alexa/alexa-webapi/obj/Debug/netcoreapp1.1/alexa-webapi.AssemblyInfo.cs
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-webapi.dll
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-webapi.pdb
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-core.dll
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-core.pdb
+/Users/allan/dev/alexa/alexa-webapi/obj/Debug/netcoreapp1.1/alexa-webapi.dll
+/Users/allan/dev/alexa/alexa-webapi/obj/Debug/netcoreapp1.1/alexa-webapi.pdb

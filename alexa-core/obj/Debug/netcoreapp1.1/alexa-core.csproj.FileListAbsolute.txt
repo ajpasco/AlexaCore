@@ -1,0 +1,6 @@
+/Users/allan/dev/alexa/alexa-core/bin/Debug/netcoreapp1.1/alexa-core.deps.json
+/Users/allan/dev/alexa/alexa-core/bin/Debug/netcoreapp1.1/alexa-core.dll
+/Users/allan/dev/alexa/alexa-core/bin/Debug/netcoreapp1.1/alexa-core.pdb
+/Users/allan/dev/alexa/alexa-core/obj/Debug/netcoreapp1.1/alexa-core.AssemblyInfo.cs
+/Users/allan/dev/alexa/alexa-core/obj/Debug/netcoreapp1.1/alexa-core.dll
+/Users/allan/dev/alexa/alexa-core/obj/Debug/netcoreapp1.1/alexa-core.pdb
