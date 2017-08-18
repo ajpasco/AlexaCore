@@ -1,6 +1,7 @@
+using System;
 using System.IO;
 using System.Text;
-using AlexaCore.Models;
+using AlexaCore.Speechlet.Request;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
@@ -15,10 +16,8 @@ public class SpeechletStrategy
             settings.MissingMemberHandling = MissingMemberHandling.Ignore;
 
             var sRequest = JsonConvert.DeserializeObject<SpeechRequest>(json);
-            //request.Body = new MemoryStream(Encoding.UTF8.GetBytes(body));
 
-            //Console.WriteLine(body);
-            //System.Diagnostics.Debug.Print(body);
+            Console.WriteLine(sRequest);
         }            
     }
 }

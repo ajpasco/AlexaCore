@@ -1,4 +1,4 @@
-namespace AlexaCore.Models
+namespace AlexaCore.Speechlet.Request
 {
     public enum RequestType
     {    

@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace AlexaCore.Models
+namespace AlexaCore.Speechlet.Request
 {
     public class RequestSystem
     {

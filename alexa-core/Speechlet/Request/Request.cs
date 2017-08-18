@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace AlexaCore.Models
+namespace AlexaCore.Speechlet.Request
 {
     public class Request
     {
@@ -11,5 +11,10 @@ namespace AlexaCore.Models
 
         [JsonProperty("timestamp")]
         public string TimeStamp { get; set;}
+
+        [JsonProperty("locale")]
+        public string Locale { get; set;}
+
+        public Intent Intent { get; set;}
     }
 }

@@ -7,6 +7,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
 using System.Text;
+using AlexaCore.Speechlet.Response;
 
 namespace alexa_webapi.Controllers
 {
@@ -15,24 +16,34 @@ namespace alexa_webapi.Controllers
     {
         // POST api/values
         [HttpPost]
-        public void PostAsync()
+        public SpeechletResponse PostAsync()
         {
             var request = this.Request;
             var strategy = new SpeechletStrategy();
             strategy.ProcessSkillsRequest(request);
-            /* 
-            using (var br = new StreamReader(request.Body))
-            {
-                string body = br.ReadToEnd();
 
-                var strategy = new SpeechletStrategy();
-                strategy.ProcessSkillsRequest()
-                //request.Body = new MemoryStream(Encoding.UTF8.GetBytes(body));
 
-                //Console.WriteLine(body);
-                //System.Diagnostics.Debug.Print(body);
-            }
-            */
+            var response = new SpeechletResponse();
+
+            response.Response.OutputSpeech = new OutputSpeech(){
+                 Text = "hello world",
+                 Type = OutputSpeechType.PlainText
+            };
+
+            response.Response.Card = new Card(){
+                Type = CardType.Simple,
+                Title = "Horoscope",
+                Content = "Hello world"
+            };
+
+            response.Response.Reprompt = new Reprompt(){
+                OutputSpeech = new OutputSpeech(){
+                    Type = OutputSpeechType.PlainText,
+                    Text = "Can I help you?"
+                }
+            };
+
+            return response;
         }
 
        
