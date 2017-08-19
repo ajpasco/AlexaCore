@@ -20,28 +20,7 @@ namespace alexa_webapi.Controllers
         {
             var request = this.Request;
             var strategy = new SpeechletStrategy();
-            strategy.ProcessSkillsRequest(request);
-
-
-            var response = new SpeechletResponse();
-
-            response.Response.OutputSpeech = new OutputSpeech(){
-                 Text = "hello world",
-                 Type = OutputSpeechType.PlainText
-            };
-
-            response.Response.Card = new Card(){
-                Type = CardType.Simple,
-                Title = "Horoscope",
-                Content = "Hello world"
-            };
-
-            response.Response.Reprompt = new Reprompt(){
-                OutputSpeech = new OutputSpeech(){
-                    Type = OutputSpeechType.PlainText,
-                    Text = "Can I help you?"
-                }
-            };
+            var response = strategy.ProcessSkillsRequest(request);
 
             return response;
         }

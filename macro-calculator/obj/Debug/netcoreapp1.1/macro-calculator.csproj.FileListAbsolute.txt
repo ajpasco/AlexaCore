@@ -1,0 +1,6 @@
+/Users/allan/dev/alexa/macro-calculator/bin/Debug/netcoreapp1.1/macro-calculator.deps.json
+/Users/allan/dev/alexa/macro-calculator/bin/Debug/netcoreapp1.1/macro-calculator.dll
+/Users/allan/dev/alexa/macro-calculator/bin/Debug/netcoreapp1.1/macro-calculator.pdb
+/Users/allan/dev/alexa/macro-calculator/obj/Debug/netcoreapp1.1/macro-calculator.AssemblyInfo.cs
+/Users/allan/dev/alexa/macro-calculator/obj/Debug/netcoreapp1.1/macro-calculator.dll
+/Users/allan/dev/alexa/macro-calculator/obj/Debug/netcoreapp1.1/macro-calculator.pdb

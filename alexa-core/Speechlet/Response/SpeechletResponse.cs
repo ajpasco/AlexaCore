@@ -8,8 +8,7 @@ namespace AlexaCore.Speechlet.Response
         [JsonProperty("version")]
         public string Version { get; set;} = "1.0";
 
-        [JsonExtensionData]
-        public Dictionary<string, object> SessionAttributes { get; set; }
+        public SessionAttributes SessionAttributes { get; set; }
 
         [JsonProperty("response")]
         public Response Response { get; set;} = new Response();

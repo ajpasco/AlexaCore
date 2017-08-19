@@ -1,0 +1,16 @@
+/home/jay/dev/projects/macro-calculator/services/bin/Debug/netstandard1.4/services.deps.json
+/home/jay/dev/projects/macro-calculator/services/bin/Debug/netstandard1.4/services.dll
+/home/jay/dev/projects/macro-calculator/services/bin/Debug/netstandard1.4/services.pdb
+/home/jay/dev/projects/macro-calculator/services/bin/Debug/netstandard1.4/domain.dll
+/home/jay/dev/projects/macro-calculator/services/bin/Debug/netstandard1.4/domain.pdb
+/home/jay/dev/projects/macro-calculator/services/obj/Debug/netstandard1.4/services.AssemblyInfo.cs
+/home/jay/dev/projects/macro-calculator/services/obj/Debug/netstandard1.4/services.dll
+/home/jay/dev/projects/macro-calculator/services/obj/Debug/netstandard1.4/services.pdb
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/bin/Debug/netstandard1.4/services.deps.json
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/bin/Debug/netstandard1.4/services.dll
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/bin/Debug/netstandard1.4/services.pdb
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/bin/Debug/netstandard1.4/domain.dll
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/bin/Debug/netstandard1.4/domain.pdb
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/obj/Debug/netstandard1.4/services.AssemblyInfo.cs
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/obj/Debug/netstandard1.4/services.dll
+/home/jay/dev/projects/macro-calculator/MacroCalculator/services/obj/Debug/netstandard1.4/services.pdb
