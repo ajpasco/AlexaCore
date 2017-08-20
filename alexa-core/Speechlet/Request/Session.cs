@@ -13,5 +13,16 @@ namespace AlexaCore.Speechlet.Request
 
         [JsonExtensionData]
         public Dictionary<string, object> Attributes { get; set;}
+
+        public Dictionary<string, object> CloneAttributes()
+        {
+            var clonedAttributes = new Dictionary<string, object>();
+            foreach(var key in Attributes.Keys)
+            {
+                clonedAttributes.Add(key, Attributes[key]);
+            }
+
+            return clonedAttributes;
+        }
     }
 }

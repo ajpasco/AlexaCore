@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\alexa-core\alexa-core.csproj" />
+    <ProjectReference Include="..\macro-calculator\macro-calculator.csproj" />
   </ItemGroup>
 
 </Project>

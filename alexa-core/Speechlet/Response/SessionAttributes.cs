@@ -7,5 +7,6 @@ namespace AlexaCore.Speechlet.Response
     {
         [JsonExtensionData]
         public Dictionary<string, object> Attributes { get; set; }
+
     }
 }

@@ -8,3 +8,5 @@
 /Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/alexa-core.pdb
 /Users/allan/dev/alexa/alexa-webapi/obj/Debug/netcoreapp1.1/alexa-webapi.dll
 /Users/allan/dev/alexa/alexa-webapi/obj/Debug/netcoreapp1.1/alexa-webapi.pdb
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/macro-calculator.dll
+/Users/allan/dev/alexa/alexa-webapi/bin/Debug/netcoreapp1.1/macro-calculator.pdb
