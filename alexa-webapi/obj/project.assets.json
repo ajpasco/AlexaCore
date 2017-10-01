@@ -3538,6 +3538,19 @@
         "runtime": {
           "bin/placeholder/netcoreapp1.1/alexa-core.dll": {}
         }
+      },
+      "macro-calculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        },
+        "compile": {
+          "bin/placeholder/netcoreapp1.1/macro-calculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netcoreapp1.1/macro-calculator.dll": {}
+        }
       }
     }
   },
@@ -9621,6 +9634,11 @@
       "type": "project",
       "path": "../alexa-core/alexa-core.csproj",
       "msbuildProject": "../alexa-core/alexa-core.csproj"
+    },
+    "macro-calculator/1.0.0": {
+      "type": "project",
+      "path": "../macro-calculator/macro-calculator.csproj",
+      "msbuildProject": "../macro-calculator/macro-calculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9629,7 +9647,8 @@
       "Microsoft.AspNetCore.Mvc >= 1.1.2",
       "Microsoft.Extensions.Logging.Debug >= 1.1.1",
       "Microsoft.NETCore.App >= 1.1.1",
-      "alexa-core >= 1.0.0"
+      "alexa-core >= 1.0.0",
+      "macro-calculator >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9654,6 +9673,9 @@
           "projectReferences": {
             "/Users/allan/dev/alexa/alexa-core/alexa-core.csproj": {
               "projectPath": "/Users/allan/dev/alexa/alexa-core/alexa-core.csproj"
+            },
+            "/Users/allan/dev/alexa/macro-calculator/macro-calculator.csproj": {
+              "projectPath": "/Users/allan/dev/alexa/macro-calculator/macro-calculator.csproj"
             }
           }
         }

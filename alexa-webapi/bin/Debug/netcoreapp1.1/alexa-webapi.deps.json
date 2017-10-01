@@ -27,7 +27,8 @@
           "Microsoft.AspNetCore.Mvc": "1.1.2",
           "Microsoft.Extensions.Logging.Debug": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1",
-          "alexa-core": "1.0.0"
+          "alexa-core": "1.0.0",
+          "macro-calculator": "1.0.0"
         },
         "runtime": {
           "alexa-webapi.dll": {}
@@ -1258,6 +1259,17 @@
         },
         "compile": {
           "alexa-core.dll": {}
+        }
+      },
+      "macro-calculator/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        },
+        "runtime": {
+          "macro-calculator.dll": {}
+        },
+        "compile": {
+          "macro-calculator.dll": {}
         }
       },
       "libuv/1.9.1": {
@@ -3494,6 +3506,11 @@
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
     "alexa-core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "macro-calculator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
